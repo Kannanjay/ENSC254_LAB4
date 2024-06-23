@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     cache
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _dogfault_init, symObjAddr: 0x0, symBinAddr: 0x1000032B0, symSize: 0x48 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _dogfault_init, symObjAddr: 0x0, symBinAddr: 0x1000032B0, symSize: 0x48 }
+  - { offsetInCU: 0x6C, offset: 0x6C, size: 0x8, addend: 0x0, symName: _dogfault_sigaction_handler, symObjAddr: 0x48, symBinAddr: 0x1000032F8, symSize: 0x11C }
+  - { offsetInCU: 0xF2, offset: 0xF2, size: 0x8, addend: 0x0, symName: _print_result, symObjAddr: 0x164, symBinAddr: 0x100003414, symSize: 0xC0 }
+  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _operateCache, symObjAddr: 0x224, symBinAddr: 0x1000034D4, symSize: 0x14 }
+  - { offsetInCU: 0x14D, offset: 0x14D, size: 0x8, addend: 0x0, symName: _address_to_block, symObjAddr: 0x238, symBinAddr: 0x1000034E8, symSize: 0x18 }
+  - { offsetInCU: 0x183, offset: 0x183, size: 0x8, addend: 0x0, symName: _cache_tag, symObjAddr: 0x250, symBinAddr: 0x100003500, symSize: 0x18 }
+  - { offsetInCU: 0x1B9, offset: 0x1B9, size: 0x8, addend: 0x0, symName: _cache_set, symObjAddr: 0x268, symBinAddr: 0x100003518, symSize: 0x18 }
+  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: _probe_cache, symObjAddr: 0x280, symBinAddr: 0x100003530, symSize: 0x1C }
+  - { offsetInCU: 0x225, offset: 0x225, size: 0x8, addend: 0x0, symName: _hit_cacheline, symObjAddr: 0x29C, symBinAddr: 0x10000354C, symSize: 0x14 }
+  - { offsetInCU: 0x257, offset: 0x257, size: 0x8, addend: 0x0, symName: _insert_cacheline, symObjAddr: 0x2B0, symBinAddr: 0x100003560, symSize: 0x1C }
+  - { offsetInCU: 0x28D, offset: 0x28D, size: 0x8, addend: 0x0, symName: _victim_cacheline, symObjAddr: 0x2CC, symBinAddr: 0x10000357C, symSize: 0x18 }
+  - { offsetInCU: 0x2C3, offset: 0x2C3, size: 0x8, addend: 0x0, symName: _replace_cacheline, symObjAddr: 0x2E4, symBinAddr: 0x100003594, symSize: 0x18 }
+  - { offsetInCU: 0x303, offset: 0x303, size: 0x8, addend: 0x0, symName: _cacheSetUp, symObjAddr: 0x2FC, symBinAddr: 0x1000035AC, symSize: 0x14 }
+  - { offsetInCU: 0x335, offset: 0x335, size: 0x8, addend: 0x0, symName: _deallocate, symObjAddr: 0x310, symBinAddr: 0x1000035C0, symSize: 0x10 }
+  - { offsetInCU: 0x359, offset: 0x359, size: 0x8, addend: 0x0, symName: _printSummary, symObjAddr: 0x320, symBinAddr: 0x1000035D0, symSize: 0x68 }
+  - { offsetInCU: 0x26, offset: 0x6CE, size: 0x8, addend: 0x0, symName: _dogfault_init, symObjAddr: 0x0, symBinAddr: 0x100003638, symSize: 0x48 }
+  - { offsetInCU: 0x41, offset: 0x6E9, size: 0x8, addend: 0x0, symName: _dogfault_init, symObjAddr: 0x0, symBinAddr: 0x100003638, symSize: 0x48 }
+  - { offsetInCU: 0x65, offset: 0x70D, size: 0x8, addend: 0x0, symName: _dogfault_sigaction_handler, symObjAddr: 0x48, symBinAddr: 0x100003680, symSize: 0x11C }
+  - { offsetInCU: 0xEB, offset: 0x793, size: 0x8, addend: 0x0, symName: _runTrace, symObjAddr: 0x164, symBinAddr: 0x10000379C, symSize: 0x184 }
+  - { offsetInCU: 0x164, offset: 0x80C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2E8, symBinAddr: 0x100003920, symSize: 0x170 }
+...
